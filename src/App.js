@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import FormInfo from "./components/Form_v1/Form";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      He4o
+      <div style={{ width: 500 }}>
+        <FormInfo />
+      </div>
     </div>
   );
 }
